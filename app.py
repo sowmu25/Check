@@ -15,9 +15,9 @@ from pandas.api.types import is_dict_like, is_list_like
 import pandas.core.common as com
 from pandas.core.generic import _shared_docs
 #from pandas.core.indexing import _maybe_numeric_slice, _non_reducing_slice
-jinja2 = import_optional_dependency("jinja2", extra="DataFrame.style requiresjinja2.")
-
+import_optional_dependency("jinja2", extra="DataFrame.style requiresjinja2.")
 
 
 import streamlit as st
+#import Jinja2
 st.write("hello")
